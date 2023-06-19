@@ -1,7 +1,7 @@
 import OTP from '../Models/otp.js';
 import generateOTP from '../Utility/generateOTP.js';
 import sendEmail from '../Utility/sendEmail.js';
-import User from '../Models/user.js';
+import User from '../Models/auth.js';
 
 const forgotPasswordController = async (req, res) => {
     try {

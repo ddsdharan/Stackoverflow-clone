@@ -1,6 +1,7 @@
 import express from 'express'
 
-import { sendOTPController, verifyOTPController, forgotPasswordController } from '../Controllers/otp.js'
+import { sendOTPController, verifyOTPController } from '../Controllers/otp.js'
+import { forgotPasswordController } from '../Controllers/forgotPasswordController.js'
 
 const router = express.Router()
 
